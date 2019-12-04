@@ -5,11 +5,11 @@ This is a file which will show a pop up alerting the user that this is an educat
 Download this file into your project and paste the following code into your functions.php. You may need to edit the line if you are putting it into a different folder.
 
 
-```sh
+```php
     require get_parent_theme_file_path('./addons/educational_alert.php');
 ```
 Open the file and edit these three lines
-```sh
+```php
     $realSite = '';
     $realSiteURL = '';
     $designerName = '';
